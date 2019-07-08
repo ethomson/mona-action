@@ -1,0 +1,38 @@
+{
+  "name": "@ethomson/mona-action",
+  "version": "0.0.0",
+  "description": "Actions to brighten your day with an Octocat",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethomson/mona-action.git"
+  },
+  "keywords": [
+    "actions",
+    "github",
+    "octocat",
+    "mona"
+  ],
+  "author": "Edward Thomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethomson/mona-action/issues"
+  },
+  "homepage": "https://github.com/ethomson/mona-action#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@actions/core": "file:toolkit/actions-core-0.0.0.tgz",
+    "@actions/io": "file:toolkit/actions-io-0.0.0.tgz",
+    "@actions/exec": "file:toolkit/actions-exec-0.0.0.tgz",
+    "@actions/exit": "file:toolkit/actions-exit-0.0.0.tgz",
+    "@actions/github": "file:toolkit/actions-github-0.0.0.tgz",
+    "@actions/tool-cache": "file:toolkit/actions-tool-cache-0.0.0.tgz",
+    "@types/node": "^12.6.1"
+  }
+}
