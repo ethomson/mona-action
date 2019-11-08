@@ -1,4 +1,4 @@
-name: 'Mona Actions'
+name: 'Show an Octocat in an Issue'
 description: 'Actions to brighten your day with an Octocat'
 author: 'Edward Thomson'
 runs:
